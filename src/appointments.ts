@@ -67,3 +67,4 @@ export async function cancelAllPatientAppointments(patientId: number) {
 export async function deleteAppointment(id: number) {
   return prisma.appointment.delete({ where: { id } });
 }
+

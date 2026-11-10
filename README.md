@@ -39,3 +39,4 @@ A TypeScript Node.js backend using Prisma ORM 7 to manage hospital appointments,
    # or
    npx tsx src/test.ts
    ```
+

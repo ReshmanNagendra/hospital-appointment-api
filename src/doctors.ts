@@ -33,3 +33,4 @@ export async function deleteDoctor(id: number) {
   // Delete or reassign their appointments first.
   return prisma.doctor.delete({ where: { id } });
 }
+

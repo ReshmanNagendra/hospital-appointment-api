@@ -37,3 +37,4 @@ export async function updatePatientPhone(id: number, phone: string) {
 export async function deletePatient(id: number) {
   return prisma.patient.delete({ where: { id } });
 }
+
